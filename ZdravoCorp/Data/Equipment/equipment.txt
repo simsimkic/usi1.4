@@ -1,0 +1,34 @@
+1|krevet|oprema za operacije|operaciona sala
+2|krevet|oprema za hodnike|magacin
+3|stolica|sobni namestaj|sala za preglede
+4|stetoskop|oprema za preglede|magacin
+5|krevet|sobni namestaj|sala za smestaj bolesnika
+6|stolica|oprema za hodnike|cekaonica
+7|krevet|oprema za operacije|operaciona sala
+8|krevet|sobni namestaj|magacin
+9|stetoskop|oprema za preglede|sala za preglede
+10|krevet|sobni namestaj|sala za smestaj bolesnika
+11|stolica|oprema za hodnike|cekaonica
+12|stolica|sobni namestaj|sala za preglede
+13|EKG|oprema za preglede|sala za preglede
+14|ultrazvuk|oprema za preglede|sala za preglede
+15|respirator|oprema za operacije|operaciona sala
+16|EKG|oprema za preglede|sala za preglede
+17|EKG|oprema za preglede|magacin
+18|gaze|oprema za preglede|sala za preglede
+19|ultrazvuk|oprema za preglede|sala za preglede
+20|gaze|oprema za preglede|sala za preglede
+21|EKG|oprema za preglede|sala za preglede
+22|kopce|oprema za operacije|operaciona sala
+23|ultrazvuk|oprema za preglede|magacin
+24|respirator|oprema za operacije|operaciona sala
+25|respirator|oprema za operacije|operaciona sala
+26|kopce|oprema za operacije|operaciona sala
+27|kopce|oprema za operacije|operaciona sala
+28|kopce|oprema za operacije|magacin
+29|injekcije|oprema za operacije|operaciona sala
+30|gaze|oprema za operacije|sala za preglede
+31|injekcije|oprema za operacije|operaciona sala
+32|kopce|oprema za operacije|operaciona sala
+33|kopce|oprema za operacije|operaciona sala
+34|kopce|oprema za operacije|operaciona sala

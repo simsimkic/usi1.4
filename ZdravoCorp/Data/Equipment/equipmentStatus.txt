@@ -1,0 +1,12 @@
+krevet|available
+stolica|available
+stetoskop|available
+EKG|available
+ultrazvuk|available
+respirator|available
+gaze|available
+kopce|available
+injekcije|available
+skalpel|unavailable
+termometar|unavailable
+defibrilator|unavailable

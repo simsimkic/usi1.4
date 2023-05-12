@@ -1,0 +1,3 @@
+5|190|90|dijabetes
+2|190|90|dijabetes
+4|1900|90|dijabetes

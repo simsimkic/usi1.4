@@ -1,0 +1,13 @@
+1|operaciona sala|1
+2|sala za preglede|3,9,13,21
+3|operaciona sala|7,15,22,24,25,26,27,29,31,32,33,34
+4|sala za preglede|14,18,19,20
+5|soba za smestaj bolesnika|5,10
+6|sala za preglede|12,3,16
+7|sala za preglede|9,12,30
+8|soba za smestaj bolesnika|10
+9|soba za smestaj bolesnika|5
+10|magacin|2,4,8,17,23,28
+11|soba za smestaj bolesnika|10,5
+12|soba za smestaj bolesnika|5
+13|cekaonica|6,11

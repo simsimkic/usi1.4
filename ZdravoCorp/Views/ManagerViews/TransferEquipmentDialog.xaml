@@ -1,0 +1,45 @@
+﻿<Window x:Class="ZdravoCorp.Views.TransferEquipmentDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="CreatePatient" Height="313" Width="433">
+    <Window.Resources>
+        <ControlTemplate x:Key="ValidationTemplate">
+            <StackPanel>
+                <!-- Placeholder for the TextBox itself -->
+                <AdornedElementPlaceholder x:Name="textBox" />
+                <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red" />
+            </StackPanel>
+        </ControlTemplate>
+    </Window.Resources>
+
+    <Grid RenderTransformOrigin="0.496,0.701" Margin="0,30,10,30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="165"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Content="Cancel" IsCancel="True" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Margin="336,79,0,0" Click="CancelButton_Click" Height="34" Width="66" />
+        <Button Content="Move" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Margin="336,16,0,0" Click="MoveEquipmentButton_Click" Height="34" Width="66" />
+
+        <Label Grid.Column="0" Height="30" Content="From(Id)" Margin="36,16,261,119" />
+        <ComboBox x:Name="FilteringType" ItemsSource="{Binding AllRoomsIds}" SelectionChanged="FilteringType_OnSelectionChanged"
+                  SelectedItem="{Binding SelectedFilteringType}"
+                  SelectedIndex="0"
+                  DisplayMemberPath=""
+                  Margin="151,22,116,115" />
+        <Label Grid.Column="0" Height="30" Content="To(Id)" Margin="36,79,261,56" />
+        <TextBox Validation.ErrorTemplate="{StaticResource ValidationTemplate}" x:Name="TextBoxTo"
+                 Height="30" Margin="151,82,116,53" />
+
+        <Label Grid.Column="0" Height="30" Content="Equipment model" Margin="36,147,261,-12" />
+        <TextBox Validation.ErrorTemplate="{StaticResource ValidationTemplate}" x:Name="TextBoxEquipmentModel"
+                 Height="30" Margin="151,150,116,-15" />
+        <Label Grid.Column="0" Height="30" Content="Amount" Margin="36,194,261,-59" />
+        <TextBox Validation.ErrorTemplate="{StaticResource ValidationTemplate}" x:Name="TextBoxAmount"
+            Height="30" Margin="151,197,116,-62" />
+    </Grid>
+</Window>

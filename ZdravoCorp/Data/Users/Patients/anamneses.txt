@@ -1,0 +1,11 @@
+113|614|bol u stomaku|povracanje,dijareja|jaja, mleko
+224|102|bol u stomaku|povracanje|jaja
+115|955|bol u stomaku|povracanje,bol u glavi|jaja, mleko
+224|719|bol u stomaku|povracanje,dijareja|jaja
+225|335|bol u stomaku|povracanje|jaja
+116|56|bol u stomaku|povracanje,bol u glavi|jaja, mleko
+227|682|bol u stomaku|povracanje,dijareja|jaja
+255|459|bol u stomaku|povracanje|jaja
+290|56|bol u stomaku|povracanje,bol u glavi|jaja, mleko
+338|682|bol u stomaku|povracanje,bol u glavi|jaja, mleko
+784|329|bol u stomaku|povracanje,dijareja|jaja
